@@ -1,11 +1,20 @@
+/* colors
+
+Prussian blue: #0b3c5d (Dark blue)
+Sky Blue: #328cc1 (light blue)
+Gold Leaf #D98310 (Gold)
+Ivory Black (Dark blue): #1d2731
+
+*/
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    background-color: #671601 !important;
-    color: #671601 !important;    
+    background-color: #0F1626 !important;
+    color: #FFFFFF !important;    
     /* background-image: url("../images/redbgsmall.jpg"); */
     /* font-weight: bold; */
     font-family: 'Vollkorn', serif !important;
@@ -13,26 +22,47 @@ body {
 }
 
 ::selection {
-    background: #671601;
-    color: #FFDF00;
+    background: #328cc1;
+    color: #d98310;
+}
+
+#linkGold a:link {
+    color: #FFDF00 !important;
+}
+
+#linkGold a:visited {
+    color: #FFDF00 !important;
+}
+
+#linkGold a:active {
+    color: #FFDF00 !important;
+}
+
+#linkGold a:hover {
+    color: #FFDF00 !important;
+    text-decoration: underline;
 }
 
 a, a:visited, a:active {
-    color: #fff !important;
+    color: #FFDF00 !important;
 }
 
 a:hover {
     transition: 0.3s;
-    color: #fff !important;
-    text-decoration: underline; 
+    color: #FFDF00;
 }
 
-.colbg {
+.colbb {
     
-    background-image: url("../images/col-background.jpg") !important; 
+    background-color: #328cc1;
     /* padding: 25px 0px 25px 0px; */
-    box-shadow: 1px 0px 5px 3px #111, inset 1px 0px 5px #000;
+    box-shadow: 1px 0px 5px 3px #F7CE3E, inset 1px 0px 5px #000;
 
+}
+
+.colbc {
+    background-color: #0b3c5d;
+    box-shadow: 1px 0px 5px 3px #D98310, inset 1px 0px 5px #000;
 }
 
 .spcpls {
@@ -99,6 +129,23 @@ div > p {
 
 .ulindent {
     padding-left: 25px;
+}
+
+#linkGold a:link, a:visited, a:active {
+    color: #FFDF00;
+}
+
+#linkGold a:visited {
+    color: #FFDF00;
+}
+
+#linkGold a:active {
+    color: #FFDF00;
+}
+
+#linkGold a:hover {
+    color: #FFDF00;
+    text-decoration: underline;
 }
 
 .text-indent {
