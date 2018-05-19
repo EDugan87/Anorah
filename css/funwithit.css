@@ -75,6 +75,11 @@ a:hover {
     text-shadow: 2px 2px 2px #000;
 }
 
+.section-title {
+    color: #FFDF00;
+    text-decoration: underline;
+}
+
 #top::after {
     margin-bottom: 25px;
 }

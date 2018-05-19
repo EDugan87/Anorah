@@ -12,6 +12,11 @@ body {
     font-size: 24px;
 }
 
+img-resize {
+    width: 75%;
+    height: auto;
+}
+
 ::selection {
     background: #671601;
     color: #FFDF00;
@@ -43,6 +48,10 @@ a:hover {
     /* color: #671601; */
     color: #FFDF00;
     text-shadow: 2px 2px 2px #000;
+}
+
+.section-title {
+    text-decoration: underline;
 }
 
 #top::after {
@@ -95,6 +104,12 @@ div > p {
 .disclaimer {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.btm-border {
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: groove;
+    border-bottom-width: 2px;
 }
 
 .ulindent {
